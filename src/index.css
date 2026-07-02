@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7B3F00;
+  --color-secondary: #C89B3C;
+  --color-cream: #FFF9F2;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: #FFF9F2;
+    color: #2D1A08;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom premium styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C89B3C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7B3F00;
+}
+
+.glass {
+  background: rgba(255, 249, 242, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 155, 60, 0.15);
+}
+
+.glass-dark {
+  background: rgba(45, 26, 8, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 155, 60, 0.25);
+}
+

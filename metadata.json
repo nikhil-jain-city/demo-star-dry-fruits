@@ -1,0 +1,6 @@
+{
+  "name": "Star Dry Fruits",
+  "description": "India's premium luxury dry fruits destination e-commerce client presentation",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
