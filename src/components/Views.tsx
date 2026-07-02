@@ -143,7 +143,7 @@ export function HomeView({
           <div className="lg:col-span-5 relative flex items-center justify-center">
             <div className="relative w-full max-w-[420px] aspect-square rounded-[2rem] overflow-hidden shadow-2xl border-2 border-secondary/20">
               <img
-                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=600&auto=format&fit=crop&q=80"
+                src="/dry-fruits-img/kaju-dry-fruits.jpg"
                 alt="Star Dry Fruits Luxury Showcase"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -488,12 +488,12 @@ export function HomeView({
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {[
-            "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=400&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=400&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=400&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1585502766743-1e967a327ff5?w=400&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1534080391025-a76c6ec29a43?w=400&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=400&auto=format&fit=crop&q=80",
+            "/dry-fruits-img/almonds.jpg",
+            "/dry-fruits-img/kaju-dry-fruits.jpg",
+            "/dry-fruits-img/pista.jpg",
+            "/dry-fruits-img/almonds.jpg",
+            "/dry-fruits-img/kishmish.jpg",
+            "/dry-fruits-img/kaju-dry-fruits.jpg",
           ].map((url, i) => (
             <div
               key={i}
